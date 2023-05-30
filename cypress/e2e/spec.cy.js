@@ -15,7 +15,7 @@ describe('UbnJr Test', () => {
     .type('cemocemo2010@gmail.com')
 
     cy.xpath('/html/body/div/div/div[1]/div[2]/div/div[2]/form/div[4]/textarea')
-    .type('OYLE SIKERLER')
+    .type('verilmek istenen mesaj')
 
     cy.xpath('//html/body/div/div/div[1]/div[2]/div/div[2]/form/div[5]/button').click()
 
